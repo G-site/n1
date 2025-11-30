@@ -522,8 +522,8 @@ async def view_users(query):
 
 # Основная функция
 def main():
-    # Замените '7986026588:AAHeSjTmpZyCa8x1AeJEx0-03yDh53xfYhw' на токен вашего бота
-    application = Application.builder().token("YOUR_BOT_TOKEN").build()
+
+    application = Application.builder().token("7986026588:AAHeSjTmpZyCa8x1AeJEx0-03yDh53xfYhw").build()
     
     # Инициализация базы данных
     init_db()
